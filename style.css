@@ -5,12 +5,22 @@
     position: absolute;
     left: 25%;
     transform: translateX(-50);
-    top: 20px;
+    top: 35px;
     background-color: #26a69a;
-    width: 500px;
-    height: 200px;
+    width: 50%;
+    height: 320px;
     border-radius: 15px;
+    padding: 25px;
+    color: white;
+    display: none;
+    transition: all .2s ease-in-out;
 }
+
+.btn-info:hover .info {
+    transition: all .2s ease-in-out;
+}
+
+ul { padding-left: 30px; }
 .final-score {
     position: absolute;
     left: 50%;
@@ -163,13 +173,12 @@ i {
     margin-top: -4px;
     transition: margin 0.3s;
 }
-.btn-info { top: 10px; }
-.btn-info i { margin-right: 0;}
-.btn-info:hover i { 
-    margin-right: 0;
-    font-size: 40px;
-    transition: 0.3s;
+.btn-info { 
+    top: 10px; 
+    width: 50px;
 }
+.btn-info i { margin-right: 0;}
+.btn-info:hover i { margin-right: 0; }
 .btn-new { top: 75px;}
 .btn-roll { top: 403px;}
 .btn-hold { top: 467px;}

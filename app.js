@@ -90,5 +90,23 @@ function init() {
     document.getElementById('name-1').textContent = 'Player 2';
 }
 
+// Info button
+
+document.querySelector('.btn-info').addEventListener('mouseover', function() {
+    document.querySelector('.info').style.display = 'block'
+});
+
+document.querySelector('.btn-info').addEventListener('mouseout', function() {
+    document.querySelector('.info').style.display = 'none';
+});
+
+document.querySelector('.info').addEventListener('mouseover', function() {
+    document.querySelector('.info').style.display = 'block';
+});
+
+document.querySelector('.info').addEventListener('mouseout', function() {
+    document.querySelector('.info').style.display = 'none';
+});
+
 
 
